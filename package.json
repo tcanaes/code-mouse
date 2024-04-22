@@ -1,0 +1,11 @@
+{
+  "name": "code-mouse",
+  "version": "1.0.0",
+  "description": "mouse game to help with logical thinking",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Thiago Canaes",
+  "license": "ISC"
+}
