@@ -2,7 +2,7 @@
   "name": "code-mouse",
   "version": "1.0.0",
   "description": "mouse game to help with logical thinking",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "nodemon ./src/index.js"
   },
