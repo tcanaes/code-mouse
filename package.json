@@ -4,7 +4,7 @@
   "description": "mouse game to help with logical thinking",
   "main": "app.js",
   "scripts": {
-    "test": "nodemon ./src/index.js"
+    "test": "nodemon ./src/app.js"
   },
   "author": "Thiago Canaes",
   "license": "ISC",
