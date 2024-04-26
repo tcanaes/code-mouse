@@ -1,10 +1,52 @@
 <html lang='pt'>
-    <head>
-        <title>Code Mouse</title>
-        <link rel="stylesheet" href="/client/style.css">
-    </head>
-    <body>
+
+<head>
+    <title>Code Mouse</title>
+    <link rel="stylesheet" href="/client/styles/00-main.css">
+    <link rel="stylesheet" href="/client/styles/01-style.css">
+    <link rel="stylesheet" href="/client/styles/menu.css">
+</head>
+
+<body>
+
+    <!-- MENU SCREEN -->
+    <div id="menu-screen">
+        <div id="menu-level">
+            <div id="menu-level-text">
+                <p>Please, choose the level you wish to play.</p>
+                <p>Each dificulty has its own levels</p>
+            </div>
+            <div id="menu-level-options">
+                <div class="menu-level-option">
+                    <span>Dificulty:</span>
+                    <select id="menu-input-dificulty"></select>
+                </div>
+                <div class="menu-level-option">
+                    <span>Level:</span>
+                    <select id="menu-input-level"></select>
+                </div>
+                <div class="menu-level-option">
+                    <span>Name:</span>
+                    <span id="menu-span-level-name"></span>
+                </div>
+            </div>
+            <div id="menu-level-buttons">
+                <button class="menu-button menu-button-cancel">CANCEL</button>
+                <button class="menu-button menu-button-confirm">OK</button>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="/client/index.js"></script>
+
+
+    <!--
+        <img id="img-mouse"      class="image" src="/client/assets/images/mouse.png">
+        <img id="img-background" class="image" src="/client/assets/images/wood.jpg">
         <canvas id="gameCanvas"></canvas>
         <script src="/client/game.js"></script>
-    </body>
+    -->
+</body>
+
 </html>
